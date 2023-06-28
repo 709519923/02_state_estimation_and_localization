@@ -74,9 +74,9 @@ for k in range(1, imu_f.data.shape[0]):  # start at 1 b/c we have initial predic
         p_est[k], v_est[k], q_est[k], p_cov[k] = measurement_update(var_lidar, p_cov[k], lidar.data[index], p_est[k], v_est[k], q_est[k])
 ```
 
-![part1-1(best state)](.\part1-1(best state).png)
+![part1-1(best state)](./part1-1(best state).png)
 
-![part1-2(best state)](.\part1-2(best state).png)
+![part1-2(best state)](./part1-2(best state).png)
 
 ## part2: miscalibration
 
@@ -100,11 +100,11 @@ for k in range(1, imu_f.data.shape[0]):  # start at 1 b/c we have initial predic
 
 ![part2-1](part2-1.png)
 
-![part2-2](.\part2-2.png)
+![part2-2](./part2-2.png)
 
-![part2-3](.\part2-3.png)
+![part2-3](./part2-3.png)
 
-![part2-4](.\part2-4.png)
+![part2-4](./part2-4.png)
 
 ## part3: sensor drop out suddenly
 
@@ -112,9 +112,9 @@ for k in range(1, imu_f.data.shape[0]):  # start at 1 b/c we have initial predic
 
 
 
-![part3-1](.\part3-1.png)
+![part3-1](./part3-1.png)
 
-![part3-2](.\part3-2.png)
+![part3-2](./part3-2.png)
 
 ```python
 for k in range(1, imu_f.data.shape[0]):  # start at 1 b/c we have initial prediction from gt
