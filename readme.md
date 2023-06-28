@@ -98,7 +98,7 @@ for k in range(1, imu_f.data.shape[0]):  # start at 1 b/c we have initial predic
 # var_lidar = 36
 ```
 
-![part2-1](.\part2-1.png)
+![part2-1](\part2-1.png)
 
 ![part2-2](.\part2-2.png)
 
