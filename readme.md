@@ -74,9 +74,9 @@ for k in range(1, imu_f.data.shape[0]):  # start at 1 b/c we have initial predic
         p_est[k], v_est[k], q_est[k], p_cov[k] = measurement_update(var_lidar, p_cov[k], lidar.data[index], p_est[k], v_est[k], q_est[k])
 ```
 
-![part1-1(best state)](./part1-1(best state).png)
+![part1-1(best state)](./part1-1(best_state).png)
 
-![part1-2(best state)](./part1-2(best state).png)
+![part1-2(best state)](./part1-2(best_state).png)
 
 ## part2: miscalibration
 
